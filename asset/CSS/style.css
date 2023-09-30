@@ -1,0 +1,122 @@
+
+/* Some of the classes names are used from the default naming of bootsrab */
+body {
+    overflow-x: hidden;
+}
+.gene-bg {
+    background-image: url("../img/Gene.jpeg");
+    background-size: cover;
+}
+
+.rounded-30 {
+    border-radius: 30px;
+}
+
+.blur {
+    background-color: #d3e2e7;
+    height: 15vh;
+    width: 190%;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    opacity: 80%;
+}
+
+.bg-5D3E9 {
+    border-radius: 30px;
+    background-color: #95D3E9;
+}
+
+.button-95D3E9 {
+    font-weight: bold !important;
+    z-index: 1;
+    top: 130px;
+    position: relative;
+    color: white !important;
+    background-color: #95D3E9 !important;
+}
+
+.bg-007F6D {
+    background-color: #136f91 !important;
+}
+
+.bg-003B33 {
+    background-color: #003B33 !important;
+}
+
+.btn-blue {
+    background-color: #87C4D7 !important;
+    color: white !important;
+}
+
+.crom {
+    background-image: url("../img/gene.png");
+    background-size: contain;
+    background-position-x: 950px;
+    background-position-y: 20px;
+    background-repeat: no-repeat;
+}
+/* customize cards in all pages*/
+.card {
+    width: 18rem !important;/*We use !important to overrdie the styling in bootsrtab library */
+
+}
+.card .card-title{
+    color: #87C4D7 !important;
+}
+/* To custom style only the card in home page */
+.home .card{
+    width: 40rem !important;
+}
+
+.analysis .card{
+    width: 20rem !important;
+}
+.analysis .card-title {
+    color: #87C4D7 !important;
+}
+
+.contact .card{
+    width: 70rem !important;
+}
+
+.contact .card-title{
+    color: #87C4D7 !important;
+}
+
+.contact .card-text-small{
+    font-size: 12px !important;
+}
+.contact .card-text{
+    margin-top: 0% !important;
+}
+
+.bg-007F6D {
+    background-color: #007F6D !important;
+
+}
+
+.bg-003B33 {
+    background-color: #003B33 !important;
+    height: 15% !important;
+    justify-content: center !important;
+}
+
+.fcit {
+    text-align: center;
+    width: 10%;
+}
+address{
+    text-decoration: none;
+}
+
+.img img{
+    width: 50%;
+    height: 80%;
+}
+
+/*To adjust and center the div container in the first part*/
+.start{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+}
